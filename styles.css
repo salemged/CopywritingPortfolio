@@ -1,0 +1,47 @@
+/* GENERAL STYLES */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+p {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* CONTAINER STYLES */
+.content-container {
+    width: 8.5in;
+    height: 11in;
+    background-color: floralwhite;
+    border-radius: 10px;
+}
+
+/* NAVIGATION BAR STYLES */
+.navbar {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center; /* vertically center items in the navbar */
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    background-color: floralwhite;
+    width: 8.5in;
+    margin-bottom: 10px;
+}
+/* BUTTON STYLES */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 2in;
+}
+.navbar-button {
+    text-align: center;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: large;
+    /*font-weight: bold;*/
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}

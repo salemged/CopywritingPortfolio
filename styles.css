@@ -15,10 +15,20 @@ p {
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
+h1 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
 h2 {
     font-family: "Helvetica Neue", Arial, sans-serif;
     padding-left: 50px;
     padding-top: 25px;
+}
+.about-text {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin-left: 95px;
+    margin-top: 25px;
+    max-width: 80%;
 }
 
 /* DROP DOWN STYLES */
@@ -38,6 +48,13 @@ summary {
     background-color: floralwhite;
     border-radius: 10px;
     padding-bottom: 25px;
+    display: grid;
+}
+.content-container img { /* ...only used for the homepage headshot currently */
+    border-radius: 8px;
+    border: 1px solid rgba(173, 143, 104, 0.3);
+    max-width: 75%;
+    justify-self: center;
 }
 
 /* NAVIGATION BAR STYLES */

@@ -8,14 +8,36 @@ body {
 }
 p {
     font-family: "Helvetica Neue", Arial, sans-serif;
+    padding: 10px;
+    margin-left: 15px;
+    max-width: 85%;
+    background-color: #f1ede6;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+/* DROP DOWN STYLES */
+details {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    padding-left: 60px;
+    padding-block: 10px;
+}
+summary {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    cursor: pointer;
 }
 
 /* CONTAINER STYLES */
 .content-container {
     width: 8.5in;
-    height: 11in;
     background-color: floralwhite;
     border-radius: 10px;
+    padding-bottom: 25px;
 }
 
 /* NAVIGATION BAR STYLES */
